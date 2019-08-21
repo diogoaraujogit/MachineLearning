@@ -1,0 +1,18 @@
+    KMK é um método de machine llearning baseado em aprendizadoo não supervisionado
+que tentará agrupar seus dados em grupos baseadoos em características similares
+
+- São usados para:
+    - Agrupamento automático de documentos
+    - Agrupamento de clientes
+    - Segmentação de mercado
+    - Geoestatística
+
+- O objetivo é dividir os dados em K grupos distintos baseado nos parâmetros
+
+- O algoritmo:
+    - Escolher um número K de grupos (clusters)
+    - Aleatoriamente definir uma classe para todos os pontos
+    - Até os clusters pararem de mudar, faa:
+        - Para cada cluster, obtenha o centróide do mesmo calculando a média
+        dos vetores dos pontos do cluster
+        - Defina cada ponto no cluster na qual o centróide é o mais próximo

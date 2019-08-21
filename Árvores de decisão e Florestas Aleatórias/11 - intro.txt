@@ -1,0 +1,18 @@
+- Imagine que eu sempre jogue tênis aos sábados e convide um amigo para ir comigo
+- Às vezes ele vem, as vezes não vem
+- Para ele ir ao jogo depende de uma série de fatores: clima, temperatura, umidade, ventoo, etc
+- Eu começo a tomar nota dos dias em que o mesmo aparece e como tais variáveis estão
+
+Nesta árvore temos:
+    - Nós: Divide a árvore por um valor de um certo atributo
+    - Ramos: Saída de um nó
+    - Raiz: Nó que faz a primeira divisão
+    - Folhas: Nóo final, que toma a decisão
+
+Entropia e ganho de informação são as bases matemáticas para escolher a melhor decisão
+O algoritmo fará a divisão sempre na classe que apresentar o maior "ganho de informação"
+
+O modelo não é muito bom para tratar dados de teste.
+Criamos florestas aleatórias, dividimos os dados de treino entre elas, testamos e pegamos as médias das respostas
+
+- Escolha de nós estocásticos

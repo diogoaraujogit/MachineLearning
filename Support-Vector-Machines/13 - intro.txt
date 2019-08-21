@@ -1,0 +1,17 @@
+#Máquina de Vetores de Suporte
+
+Dado um conjunto de dados de treino, cada um marcado com uma classe pertencendo a uma categoria, SVM cria um modelo que
+assimila novos exemplos em uma das categorias, fazendo uso de um classificador não probabilístico
+
+- É uma representação dos exemplos como pontos no espaço, mapeados de forma que as categorias são divididas com  maior
+distância possível entre elas
+
+- SVM's são métodos de machine learning baseados em aprendizado supervisionado que analizam os dados e reconhecem
+padrões usados para classificação e regressão
+
+- Dado um conjunto de dados de treino, cada um marcado com uma classe pertencendo a uma categoria, SVM cria um modelo que
+assimila novos exemplos em uma das categorias, fazendo uso de um classificador não-probabilístico
+
+
+- Vetores de suporte
+- Kernel Trick

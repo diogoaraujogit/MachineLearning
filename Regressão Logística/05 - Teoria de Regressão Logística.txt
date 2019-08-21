@@ -1,0 +1,16 @@
+Alguns problemas de classificação:
+Filtros de e-mails (spam ou não)
+Modelos preditores de clientes inadimplentes
+Diagnóstico de doenças
+
+Regressão logística nos permite resolver problemas de classificação onde estamos tentando predizer categorias discretas
+Por convenção, classificações binárias terão duas classes: 0 e 1
+É difícil usar regressão linear para isso, uma vez que a mesma permitiria probabilidades acima de 100% e abaixo de 0%
+
+Os valores de saída da sigmoid são interpretados como probabilidades de ser 1 ou 0
+
+A principal forma de avaliá-lo é utilizando a matriz de confusão
+
+True: Positive e Negative
+False: Positive (tipo I) e Negative (pior caso para doenças, tipo II)
+Precisão: (TP + TN)/Total

@@ -1,0 +1,13 @@
+- É um método não supervisionado estatístico, usado para examinar relações entre um conjunto de variáveis, com objetivo
+de identificar uma estrutura básica por trás das mesmas
+- Também é conhecido como análise de fatores
+
+- Enquanto uma regressão determina a linha que melhor se ajusta ao conjunto de dados, PCA determina o melhor conjunto
+ortogonal de linhas para ajustar nosso modelo
+
+- Ortogonal significa 'perpendicular'. Estamos procurando então por linhas perpendiculares no n-dimensional
+
+- Espaço n-dimensional é o espaço vetorial do grupo de parâmetros
+    - Existirão tantas dimensões neste espaço vetorial quanto parâmetros no seu conjunto de dados. Assim, um conjunto
+    com 4 variáveis terá 4 dimensões
+

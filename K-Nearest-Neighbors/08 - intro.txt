@@ -1,0 +1,24 @@
+- KNN é um algoritmo de classificação de dados que opera de forma muito simples
+- Imagine que temos alguns dados imaginários de alturas e pesos de cachorros e cavalos
+
+- Algoritmo de treino:
+    - 1. Guarde os dados
+
+- Algoritmo de teste/preditor:
+    - 1. Calcule as distâncias do x até os demais pontos
+    - 2. Organize os dados em ordem crescente de distância
+    - 3. Classifique a classe de acordo com a maioria dos primeiros "k" valores
+
+- Pros:
+    - 1. Muito Simples
+    - 2. Processo de treino é trivial
+    - 3. Funciona muito bem com um grande número de classes
+    - 4. Fácil de se adicionar mais dados
+    - 5. Poucos parâmetros (K e métrica de distância)
+
+- Contras:
+    - 1. Difícil de tirar predições
+    - 2. Não muito bom com dados de múltiplas dimensões
+    - 3. Parâmetros categóricos não funcionam muito bem
+
+    
